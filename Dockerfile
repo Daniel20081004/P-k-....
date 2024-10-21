@@ -1,7 +1,7 @@
 FROM node:lts-buster
 
 # Clone the repository
-RUN git clone https://github.com/A-d-i-t-h-y-a-n/hermit-bot/home/suhail
+RUN git clone https://github.com/A-d-i-t-h-y-a-n/hermit-bot /home/suhail
 
 # Change ownership of the directory to the 'node' user
 RUN chown -R node:node /home/suhail
